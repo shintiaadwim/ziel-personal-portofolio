@@ -1,10 +1,4 @@
-import Navbar from "../layout/Navbar";
-
-type HeroProps = {
-    onContactClick: () => void;
-};
-
-export default function Hero({ onContactClick }: HeroProps) {
+export default function Hero() {
     const scrollToAbout = () => {
         const aboutSection = document.getElementById("about");
         if (!aboutSection) return;
@@ -21,7 +15,17 @@ export default function Hero({ onContactClick }: HeroProps) {
             </div>
 
             <div className="absolute inset-x-0 top-0 z-20">
-                <Navbar hideMenu onContactClick={onContactClick} brandName="sharziel" />
+                <header className="w-full bg-white/80 backdrop-blur-sm">
+                    <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-8 md:py-2">
+                        <span className="text-2xl font-semibold text-zinc-900 md:text-3xl">sharziel</span>
+                        <a
+                            href="#contact"
+                            className="cursor-pointer rounded-lg border-2 border-black bg-black px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-transparent hover:text-black md:px-6 md:text-base"
+                        >
+                            Contact Me
+                        </a>
+                    </nav>
+                </header>
             </div>
 
             <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-24 md:px-8 md:pt-28">
