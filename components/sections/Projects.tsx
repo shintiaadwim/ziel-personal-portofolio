@@ -98,9 +98,6 @@ export default function Projects() {
         <section id="projects" className="scroll-mt-28 bg-white px-6 py-28">
             <div className="mx-auto max-w-5xl">
                 <h2 className="text-2xl font-semibold text-zinc-900">Projects</h2>
-                {/* <p className="mt-4 text-justify text-sm text-zinc-600">
-                    Explore selected works crafted for performance and user experience.
-                </p> */}
 
                 <div
                     ref={sliderRef}
