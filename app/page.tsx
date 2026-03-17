@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import About from "../components/About";
-import Projects from "../components/Projects";
+import About from "../components/sections/About";
+import Projects from "../components/sections/Projects";
 
 export default function Home() {
   const [showNavbar, setShowNavbar] = useState(false);
