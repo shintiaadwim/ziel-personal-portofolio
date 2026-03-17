@@ -18,14 +18,14 @@ export default function About() {
 
                     <div className="min-w-0 flex-1 space-y-4 text-justify text-sm leading-relaxed text-zinc-600 sm:text-base">
                         <p>
-                            Hello! I'm <strong>Shintia Aranzadwi Melati (Sharziel)</strong>, a <strong>UI/UX Designer</strong> and
+                            Hello! I&apos;m <strong>Shintia Aranzadwi Melati (Sharziel)</strong>, a <strong>UI/UX Designer</strong> and
                             <strong> Frontend Developer</strong> focused on creating digital experiences that
-                            are <em>intuitive, polished, and relevant to user needs</em>. I'm also
+                            are <em>intuitive, polished, and relevant to user needs</em>. I&apos;m also
                             actively improving my skills in digital product design and
                             <em> responsive, user-friendly frontend implementation</em>.
                         </p>
                         <p>
-                            I'm currently studying at <strong>Electronic Engineering Polytechnic Institute of Surabaya </strong>
+                            I&apos;m currently studying at <strong>Electronic Engineering Polytechnic Institute of Surabaya </strong>
                             in the <strong>Applied Bachelor of Informatics Engineering program (2024-present)</strong>.
                         </p>
                         <p>
@@ -35,9 +35,6 @@ export default function About() {
                         </p>
 
                         <div className="pt-2 text-left">
-                            {/* <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-zinc-500">
-                                Highlight Skill
-                            </p> */}
                             <div className="flex flex-wrap gap-2">
                                 <span className="rounded-full bg-sky-100 px-3 py-1.5 text-xs font-semibold text-sky-700 ring-1 ring-sky-200">
                                     UI/UX Design
