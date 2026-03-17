@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import About from "../components/About";
+import Projects from "../components/Projects";
 
 export default function Home() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -137,14 +138,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="projects" className="scroll-mt-28 bg-white px-6 py-28">
-          <div className="mx-auto max-w-5xl">
-            <h2 className="text-4xl font-semibold text-zinc-900">Projects</h2>
-            <p className="mt-4 text-lg text-zinc-600">
-              Explore selected works crafted for performance and user experience.
-            </p>
-          </div>
-        </section>
+        <Projects />
 
         <section id="contact" className="scroll-mt-28 bg-zinc-50 px-6 py-28">
           <div className="mx-auto max-w-5xl">
