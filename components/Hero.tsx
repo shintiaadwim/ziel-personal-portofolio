@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
     const scrollToAbout = () => {
         const aboutSection = document.getElementById("about");
@@ -7,7 +9,6 @@ export default function Hero() {
     };
 
     return (
-        // <section className="relative flex min-h-screen items-center justify-start overflow-hidden bg-linear-to-br from-white to-gray-100 px-6">
         <section className="relative flex min-h-screen items-center justify-start overflow-hidden bg-white px-6">
             <div className="pointer-events-none absolute inset-0 z-0">
                 <div className="absolute -left-20 top-24 h-64 w-64 rounded-full bg-sky-200/40 blur-3xl" />
@@ -16,14 +17,26 @@ export default function Hero() {
 
             <div className="absolute inset-x-0 top-0 z-20">
                 <header className="w-full bg-white/80 backdrop-blur-sm">
-                    <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-8 md:py-2">
-                        <span className="text-2xl font-semibold text-zinc-900 md:text-3xl">sharziel</span>
-                        <a
-                            href="#contact"
-                            className="cursor-pointer rounded-lg border-2 border-black bg-black px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-transparent hover:text-black md:px-6 md:text-base"
-                        >
-                            Contact Me
-                        </a>
+                    <nav className="mx-auto max-w-7xl px-4 py-3 md:px-8 md:py-2">
+                        <div className="flex items-center justify-between gap-4">
+                            <Link
+                                href="#"
+                                className="flex items-center gap-2 text-3xl font-semibold text-zinc-900 md:text-4xl"
+                            >
+                                <span
+                                    className="h-9 w-9 rounded-full border-[3px] border-zinc-800 md:h-11 md:w-11"
+                                    aria-hidden="true"
+                                />
+                                <span className="leading-none">sharziel</span>
+                            </Link>
+
+                            <Link
+                                href="#contact"
+                                className="cursor-pointer rounded-lg border-2 border-black bg-black px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-transparent hover:text-black md:px-6 md:text-lg"
+                            >
+                                Contact Me
+                            </Link>
+                        </div>
                     </nav>
                 </header>
             </div>
@@ -36,8 +49,8 @@ export default function Hero() {
                             curiosity into <span className="text-blue-500">code!</span>
                         </span>
                     </h1>
-                    <p className="mt-4 text-lg text-zinc-600">
-                        Shintia Aranzadwi Melati a.k.a Sharziel, UI/UX Designer and Frontend Developer.
+                    <p className="mt-4 text-base text-zinc-600">
+                        Shintia Aranzadwi Melati (Sharziel), UI/UX Designer and Frontend Developer.
                     </p>
                     <button
                         type="button"
