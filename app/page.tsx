@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/sections/Hero";
+import About from "../components/sections/About";
 
 export default function Home() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -46,15 +47,7 @@ export default function Home() {
 
       <main>
         <Hero onContactClick={scrollToContact} />
-
-        <section id="about" className="scroll-mt-28 bg-white px-6 py-28">
-          <div className="mx-auto max-w-5xl">
-            <h2 className="text-4xl font-semibold text-zinc-900">About</h2>
-            <p className="mt-4 text-lg text-zinc-600">
-              We build purposeful digital products with clean execution.
-            </p>
-          </div>
-        </section>
+        <About />
 
         <section id="skills" className="scroll-mt-28 bg-zinc-50 px-6 py-28">
           <div className="mx-auto max-w-5xl">

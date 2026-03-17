@@ -32,8 +32,8 @@ export default function Hero({ onContactClick }: HeroProps) {
                             curiosity into <span className="text-blue-500">code!</span>
                         </span>
                     </h1>
-                    <p className="mt-4 text-lg text-zinc-600">
-                        Shintia Aranzadwi Melati a.k.a Sharziel, UI/UX Designer and Frontend Developer.
+                    <p className="mt-4 text-base text-zinc-600">
+                        Shintia Aranzadwi Melati (Sharziel), UI/UX Designer and Frontend Developer.
                     </p>
                     <button
                         type="button"
