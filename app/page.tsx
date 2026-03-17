@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Navbar from "../components/layout/Navbar";
+import Hero from "../components/sections/Hero";
 
 export default function Home() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -44,20 +45,7 @@ export default function Home() {
       </div>
 
       <main>
-        <section className="relative flex min-h-screen items-center justify-center bg-slate-50 px-6">
-          <div className="absolute inset-x-0 top-0">
-            <Navbar hideMenu onContactClick={scrollToContact} brandName="sharziel" />
-          </div>
-
-          <div className="max-w-3xl pt-24 text-center md:pt-28">
-            <h1 className="text-5xl font-semibold text-zinc-900 md:text-7xl">
-              Welcome to Ziel
-            </h1>
-            <p className="mt-6 text-lg text-zinc-600">
-              Scroll down to see the navigation appear from About section onward.
-            </p>
-          </div>
-        </section>
+        <Hero onContactClick={scrollToContact} />
 
         <section id="about" className="scroll-mt-28 bg-white px-6 py-28">
           <div className="mx-auto max-w-5xl">
