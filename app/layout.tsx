@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sharziel | UI Designer & Frontend Development",
+  title: "Sharziel | UI/UX Designer & Frontend Development",
   description: "Sharziel Personal Portfolio",
 };
 
