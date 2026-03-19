@@ -26,7 +26,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                         </span>
                     </h1>
                     <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-sm">
-                        Shintia Aranzadwi Melati (Sharziel), UI/UX Designer and Frontend Developer.
+                        Shintia Aranzadwi Melati (Sharziel), UI/UX Designer and Frontend Development.
                     </p>
                     <button
                         type="button"
