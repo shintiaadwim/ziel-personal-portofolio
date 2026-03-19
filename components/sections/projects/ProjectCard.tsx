@@ -17,23 +17,23 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                 ))}
             </div>
 
-            <h3 className="mb-2 text-lg font-semibold text-zinc-900 dark:text-white">{project.title}</h3>
+            <h3 className="mb-2 text-base font-semibold text-zinc-900 dark:text-white">{project.title}</h3>
 
-            <p className="mb-4 text-justify text-base text-gray-600 dark:text-zinc-400 sm:text-sm">{project.desc}</p>
+            <p className="mb-4 text-justify text-sm leading-relaxed text-gray-600 dark:text-zinc-400 sm:text-sm">{project.desc}</p>
 
             <div className="flex">
                 <a
                     href={project.github}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-md bg-zinc-100 dark:bg-zinc-800 px-4 py-2 text-base font-medium text-zinc-800 dark:text-zinc-200 transition-colors hover:bg-zinc-200 dark:hover:bg-zinc-700 sm:text-sm"
+                    className="inline-flex items-center gap-2 rounded-md bg-zinc-100 dark:bg-zinc-800 px-4 py-2 text-sm font-medium text-zinc-800 dark:text-zinc-200 transition-colors hover:bg-zinc-200 dark:hover:bg-zinc-700 sm:text-sm"
                 >
                     <GitHubIcon className="h-4 w-4" />
                     GitHub
                 </a>
             </div>
 
-            <p className="mt-3 text-base text-gray-400 dark:text-zinc-500 sm:text-sm">Year : {project.year}</p>
+            <p className="mt-3 text-sm text-gray-400 dark:text-zinc-500 sm:text-sm">Year : {project.year}</p>
         </div>
     );
 }

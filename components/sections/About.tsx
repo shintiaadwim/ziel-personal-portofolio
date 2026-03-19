@@ -14,17 +14,17 @@ export default function About() {
                             alt="Profile photo"
                             width={280}
                             height={280}
-                            className="h-32 w-32 rounded-2xl object-cover shadow-xl ring-1 transition-transform duration-300 hover:scale-105 sm:h-44 sm:w-44 md:h-52 md:w-52"
+                            className="h-32 w-32 rounded-2xl object-cover shadow-xl ring-1 ring-zinc-200 dark:ring-zinc-700 transition-transform duration-300 hover:scale-105 sm:h-44 sm:w-44 md:h-52 md:w-52"
                         />
                     </div>
 
-                    <div className="min-w-0 flex-1 space-y-4 text-justify text-base leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-sm">
+                    <div className="min-w-0 flex-1 space-y-4 text-justify text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-sm">
                         <p>
                             Hello! I&apos;m <strong>Shintia Aranzadwi Melati (Sharziel)</strong>, a <strong>UI/UX Designer</strong> and
                             <strong> Frontend Developer</strong> focused on creating digital experiences that
-                            are <em>intuitive, polished, and relevant to user needs</em>. I&apos;m also
+                            are intuitive, polished, and relevant to user needs. I&apos;m also
                             actively improving my skills in digital product design and
-                            <em> responsive, user-friendly frontend implementation</em>.
+                            responsive, user-friendly frontend implementation.
                         </p>
                         <p>
                             I&apos;m currently studying at <strong>Electronic Engineering Polytechnic Institute of Surabaya </strong>

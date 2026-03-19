@@ -5,12 +5,12 @@ export const aboutSectionContent = {
 export const skillsSectionContent = {
     title: "Skills & Tools",
     subtitle:
-        "Beberapa kemampuan utama yang sering saya gunakan untuk membangun produk digital yang rapi, konsisten, dan nyaman dipakai.",
+        "Core skills I frequently use to build digital products that are clean, consistent, and user-friendly.",
 };
 
 export const projectsSectionContent = {
     title: "Projects",
-    subtitle: "Explore selected works crafted for performance and user experience.",
+    subtitle: "A collection of projects that reflects my growth in development, tools, and programming languages over the years.",
 };
 
 export const contactSectionContent = {

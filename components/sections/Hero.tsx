@@ -18,20 +18,20 @@ export default function Hero({ onContactClick }: HeroProps) {
             </div>
 
             <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-24 md:px-8 md:pt-28">
-                <div className="-mt-6 max-w-3xl text-left md:-mt-10">
-                    <h1 className="text-5xl font-bold leading-[0.95] tracking-tight text-zinc-900 dark:text-white sm:text-6xl md:text-7xl">
+                <div className="-mt-10 max-w-3xl text-left md:-mt-10">
+                    <h1 className="text-4xl font-bold leading-[0.95] tracking-tight text-zinc-900 dark:text-white sm:text-5xl md:text-6xl">
                         <span className="block">Turning</span>
                         <span className="block whitespace-nowrap">
                             curiosity into <span className="text-blue-500">code!</span>
                         </span>
                     </h1>
-                    <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
+                    <p className="mt-4 max-w-2xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-sm">
                         Shintia Aranzadwi Melati (Sharziel), UI/UX Designer and Frontend Developer.
                     </p>
                     <button
                         type="button"
                         onClick={() => scrollToSection("about")}
-                        className="mt-8 cursor-pointer rounded-lg border-2 border-black bg-black px-6 py-2 text-base font-semibold text-white transition-all hover:bg-transparent hover:text-black"
+                        className="mt-4 cursor-pointer rounded-lg border-2 border-black bg-black px-3.5 py-1.5 text-sm font-semibold text-white transition-all hover:bg-transparent hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-transparent dark:hover:text-white sm:text-sm"
                     >
                         Explore More
                     </button>

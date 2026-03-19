@@ -14,8 +14,8 @@ export default function SkillsHighlightsGrid() {
                         <div className={`inline-flex rounded-lg p-2 ${skill.style}`}>
                             <Icon className="text-base" aria-hidden="true" />
                         </div>
-                        <h3 className="mt-3 text-base font-semibold text-zinc-900 dark:text-white sm:text-sm">{skill.title}</h3>
-                        <p className="mt-1 text-base leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-sm">{skill.description}</p>
+                        <h3 className="mt-3 text-sm font-semibold text-zinc-900 dark:text-white sm:text-sm">{skill.title}</h3>
+                        <p className="mt-1 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-sm">{skill.description}</p>
                     </article>
                 );
             })}

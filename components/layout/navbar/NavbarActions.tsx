@@ -7,7 +7,7 @@ type NavbarActionsProps = {
 };
 
 const contactBtnClass =
-    "cursor-pointer rounded-lg border-2 border-black bg-black px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-transparent hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-transparent dark:hover:text-white md:px-6 md:text-lg";
+    "cursor-pointer rounded-lg border-2 border-black bg-black px-3.5 py-1.5 text-sm font-semibold text-white transition-all hover:bg-transparent hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-transparent dark:hover:text-white md:px-5 md:text-sm";
 
 export default function NavbarActions({ onContactClick, onNavClick }: NavbarActionsProps) {
     return (

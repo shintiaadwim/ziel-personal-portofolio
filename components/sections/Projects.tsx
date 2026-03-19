@@ -22,7 +22,7 @@ export default function Projects() {
         <section id="projects" className="scroll-mt-28 bg-white dark:bg-zinc-950 px-6 py-28">
             <div className="mx-auto max-w-5xl">
                 <h2 className="text-2xl font-semibold text-zinc-900 dark:text-white">{projectsSectionContent.title}</h2>
-                <p className="mt-2 text-justify text-sm text-zinc-600 dark:text-zinc-400">
+                <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-base md:whitespace-nowrap">
                     {projectsSectionContent.subtitle}
                 </p>
 
@@ -45,7 +45,7 @@ export default function Projects() {
                         </div>
                     ))}
                 </div>
-                <p className="mt-3 text-center text-base text-zinc-500 dark:text-zinc-400 sm:text-sm">
+                <p className="mt-3 text-center text-sm text-zinc-500 dark:text-zinc-400 sm:text-base">
                     Drag with your cursor to slide projects, or see more on{" "}
                     <a
                         href="https://github.com/shintiaadwim"
