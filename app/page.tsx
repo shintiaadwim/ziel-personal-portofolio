@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import About from "../components/sections/About";
+import Skills from "../components/sections/Skills";
 import Projects from "../components/sections/Projects";
+import Contact from "../components/sections/Contact";
 
 export default function Home() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -128,26 +130,9 @@ export default function Home() {
           </div>
         </section>
         <About />
-
-        <section id="skills" className="scroll-mt-28 bg-zinc-50 px-6 py-28">
-          <div className="mx-auto max-w-5xl">
-            <h2 className="text-4xl font-semibold text-zinc-900">Skills</h2>
-            <p className="mt-4 text-lg text-zinc-600">
-              UI design, frontend architecture, and high-quality product delivery.
-            </p>
-          </div>
-        </section>
-
+        <Skills />
         <Projects />
-
-        <section id="contact" className="scroll-mt-28 bg-zinc-50 px-6 py-28">
-          <div className="mx-auto max-w-5xl">
-            <h2 className="text-4xl font-semibold text-zinc-900">Contact</h2>
-            <p className="mt-4 text-lg text-zinc-600">
-              Let&apos;s collaborate on your next idea.
-            </p>
-          </div>
-        </section>
+        <Contact />
       </main>
     </>
   );
