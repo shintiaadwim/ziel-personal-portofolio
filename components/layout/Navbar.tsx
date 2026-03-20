@@ -28,9 +28,9 @@ export default function Navbar({
 
     return (
         <header className="w-full backdrop-blur-sm">
-            <nav className="mx-auto max-w-7xl px-4 py-3 md:px-8 md:py-2">
+            <nav className="mx-auto max-w-7xl px-4 py-3 sm:px-5 md:px-8 md:py-2">
                 {!menuOnly && (
-                    <div className="flex items-center justify-between gap-4">
+                    <div className="flex items-center justify-between gap-2 sm:gap-4">
                         <NavbarBrand brandName={brandName} />
                         <NavbarActions onContactClick={onContactClick} onNavClick={handleNavClick} />
                     </div>

@@ -5,7 +5,7 @@ type NavbarBrandProps = {
 };
 
 const brandClass =
-    "flex items-center gap-2 text-1xl font-semibold text-zinc-900 dark:text-white md:text-2xl";
+    "min-w-0 flex items-center gap-2 text-lg font-semibold text-zinc-900 dark:text-white sm:text-xl md:text-2xl";
 
 export default function NavbarBrand({ brandName }: NavbarBrandProps) {
     return (
@@ -14,7 +14,7 @@ export default function NavbarBrand({ brandName }: NavbarBrandProps) {
                 className="h-7 w-7 rounded-full border-[3px] border-zinc-800 dark:border-zinc-200 md:h-7 md:w-7"
                 aria-hidden="true"
             /> */}
-            <span className="leading-none">{brandName}</span>
+            <span className="truncate leading-none">{brandName}</span>
         </Link>
     );
 }

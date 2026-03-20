@@ -17,7 +17,7 @@ export const skillHighlights = [
         title: "Photography",
         description: "Photo composition, lighting, and color grading to create strong visual storytelling.",
         icon: FaCamera,
-        style: "bg-amber-100 text-amber-800",
+        style: "bg-pink-100 text-pink-700",
     },
 ];
 

@@ -21,7 +21,7 @@ export default function About() {
                     <div className="min-w-0 flex-1 space-y-4 text-justify text-sm leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-sm">
                         <p>
                             Hello! I&apos;m <strong>Shintia Aranzadwi Melati (Sharziel)</strong>, a <strong>UI/UX Designer</strong> and
-                            <strong> Frontend Developer</strong> focused on creating digital experiences that
+                            <strong> Frontend Development</strong> focused on creating digital experiences that
                             are intuitive, polished, and relevant to user needs. I&apos;m also
                             actively improving my skills in digital product design and
                             responsive, user-friendly frontend implementation.

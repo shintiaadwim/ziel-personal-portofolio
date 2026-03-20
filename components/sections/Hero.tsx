@@ -7,7 +7,7 @@ type HeroProps = {
 
 export default function Hero({ onContactClick }: HeroProps) {
     return (
-        <section className="relative flex min-h-screen items-center justify-start overflow-hidden bg-white dark:bg-zinc-950 px-6">
+        <section className="relative flex min-h-screen items-center justify-start overflow-hidden bg-white dark:bg-zinc-950 px-4 sm:px-6">
             <div className="pointer-events-none absolute inset-0 z-0">
                 <div className="absolute -left-20 top-24 h-64 w-64 rounded-full bg-sky-200/40 blur-3xl" />
                 <div className="absolute -right-20 top-1/3 h-72 w-72 rounded-full bg-sky-200/35 blur-3xl" />
@@ -21,7 +21,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                 <div className="-mt-10 max-w-3xl text-left md:-mt-10">
                     <h1 className="text-4xl font-bold leading-[0.95] tracking-tight text-zinc-900 dark:text-white sm:text-5xl md:text-6xl">
                         <span className="block">Turning</span>
-                        <span className="block whitespace-nowrap">
+                        <span className="block sm:whitespace-nowrap">
                             curiosity into <span className="text-blue-500">code!</span>
                         </span>
                     </h1>
